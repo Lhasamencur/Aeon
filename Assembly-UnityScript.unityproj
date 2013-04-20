@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{AAEBDDE7-BF68-6B65-EDDF-16F5F93F49CC}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_5;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\6by7\ProBuilder\Scripts\builder_Box.js" />
+     <Compile Include="Assets\6by7\ProBuilder\Scripts\builder_Collider.js" />
+     <Compile Include="Assets\6by7\ProBuilder\Scripts\builder_Plane.js" />
+     <Compile Include="Assets\6by7\ProBuilder\Scripts\builder_VertHandle.js" />
+     <Compile Include="Assets\6by7\ProGrids\Scripts\ProGrids.js" />
+     <Compile Include="Assets\6by7\UVTool\JS\Classes\UVSettings.js" />
+     <Compile Include="Assets\6by7\UVTool\JS\UV.js" />
+     <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ArtilleryController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CowboyWeaponZoomIn.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\PerspOldWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Shaders\Rimlight_Transparent_Warp.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MafiaCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\StompingCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CrouchModernWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MouseRawUnityCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CowboyCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Shaders\Rimlight_Transparent_Texture.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\SystemOFFWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlusPlus.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CrouchController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ModernCamera.txt" />
+     <None Include="Assets\Shaders\Rimlight_Transparent_Texture_Unlit.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MafiaShooter.txt" />
+     <None Include="Assets\6by7\_README-ProGrids-Free.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\SmackController.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\WallFacingWeapon.txt" />
+     <None Include="Assets\Shaders\Planet.shader" />
+     <None Include="Assets\Scripts\Player\Motion Blur\Resources\MotionVectors.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\Persp1999Weapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CowboyController.txt" />
+     <None Include="Assets\Shaders\Base_Bumped.shader" />
+     <None Include="Assets\Shaders\Rimlight_Strange.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\Persp1999Camera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ModernController.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MouseSmoothingCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Shaders\Rimlight_Illum.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MafiaWeaponZoomOut.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\WallFacingCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\PivotMuzzleWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\DefaultCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\DefaultWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\OldSchoolCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Prepistolshooter.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CowboyWeaponZoomOut.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\DrunkWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Shaders\Rimlight_Bump.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ModernShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ImmobileCamera.txt" />
+     <None Include="Assets\Shaders\Internal-PrePassLighting.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Prepistol.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MaceCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ImmobileController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MechController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\DrunkController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\DrunkCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ArtilleryCamera.txt" />
+     <None Include="Assets\Shaders\Base_Bumped_Texture.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MechWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Shaders\Fade.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CrouchModernCamera.txt" />
+     <None Include="Assets\Source\_Src\_Shaders\BPCEM_Test_CG.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Precam.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\DefaultController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CowboyShooter.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MouseLowSensWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MafiaWeaponZoomIn.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\SystemOFFController.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\OldSchoolWeapon.txt" />
+     <None Include="Assets\Shaders\Rimlight_Base.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MafiaShooterZoomOut.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ImmobileWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\TurretWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MaceWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\AstronautCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MouseLowSensCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ModernWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\PivotChestWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CowboyShooterZoomOut.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\SystemOFFWeaponGlideIn.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\SniperWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Shaders\Relief_Silhouette.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\SystemOFFCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Shaders\Base_WorldUV_Texture_Cubemap.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\PerspOldCamera.txt" />
+     <None Include="Assets\Shaders\Rimlight_WorldUV.shader" />
+     <None Include="Assets\Shaders\Rimlight_Texture_Base.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MafiaWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Shaders\Rimlight_Transparent_Texture_WorldUV.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\OldSchoolShooter.txt" />
+     <None Include="Assets\Shaders\Rimlight_Transparent.shader" />
+     <None Include="Assets\Shaders\Rimlight_Transparent_Base.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MechShooter.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\TurretCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CowboyWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\PivotElbowWeapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CrouchMafiaCamera.txt" />
+     <None Include="Assets\Shaders\Rimlight_Transparent_Texture_NoCull.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Shaders\Rimlight_Texture.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ModernWeaponZoomIn.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MafiaShooterZoomIn.txt" />
+     <None Include="Assets\Scripts\Player\Motion Blur\LIC Blur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\PerspModernWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Pre.txt" />
+     <None Include="Assets\Shaders\Base_WorldUV.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\PerspModernCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ModernShooterZoomIn.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MechCamera.txt" />
+     <None Include="Assets\Shaders\Base_WorldUV_Texture.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CowboyShooterZoomIn.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\6by7\_README-ProBuilder-Free.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\OldSchoolController.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\SniperCamera.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MouseRawUnityWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\CrouchMafiaWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\AstronautController.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\TurretShooter.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\SniperShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\MouseSmoothingWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ModernWeaponZoomOut.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\PivotWristWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\AstronautWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Precon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\UltimateFPSCamera\Resources\Examples\ModernShooterZoomOut.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{14FA9814-3F86-8CE4-8D10-6566164E8085}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{BA1F6F1D-4C95-61FC-E075-64A01792C2AE}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
