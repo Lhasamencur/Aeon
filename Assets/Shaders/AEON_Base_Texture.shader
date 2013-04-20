@@ -11,7 +11,7 @@ Shader "AEON_Base_Texture"
 		_Specmap ( "Specmap", 2D ) = "spec" {}
 		_AmbientRim ( "Ambient Rim", Range( 0.0, 1.0 ) ) = 0.0
 		_FresnelPower ( "Fresnel Power", Range( 0.0, 4.0 ) ) = 4.0
-		_FresnelMult ( "Fresnel Multiplier", Range( 0.0, 5.0 ) ) = 0.75
+		_FresnelMult ( "Fresnel Multiplier", Range( 0.0, 10.0 ) ) = 0.75
 		_FresnelDilute ( "Spec Main", Range( 0.0, 5.0 ) ) = 0.75
 		_PrimaryBlob ( "Primary Blob", Range( 0.0, 1.0 ) ) = 1.0
 		_SecondaryBlob ( "Secondary Blob", Range( 0.0, 1.0 ) ) = 0.125
