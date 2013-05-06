@@ -1,8 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shaders\AEON_Base_Texture.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shaders\Rimlight_Transparent_Base.shader">
     <Files>
-      <File FileName="Assets\Shaders\AEON_Base_Texture.shader" Line="14" Column="54" />
+      <File FileName="Assets\Shaders\Rimlight_Transparent_Base.shader" Line="73" Column="33" />
+      <File FileName="Assets\Shaders\Rimlight_Base.shader" Line="51" Column="47" />
+      <File FileName="Assets\Shaders\AEON_Base.shader" Line="6" Column="1" />
+      <File FileName="Assets\Shaders\AEON_Base_Texture.shader" Line="33" Column="54" />
+      <File FileName="Assets\Shaders\Rimlight_Bump.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shaders\AEON_Base_Detail.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shaders\AEON_BRDF_Texture.shader" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\General.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\CameraSpin.cs" Line="25" Column="33" />
+      <File FileName="Assets\Scripts\Player\CameraMove.cs" Line="10" Column="21" />
+      <File FileName="Assets\Scripts\UltimateFPSCamera\vp_FPSCamera.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

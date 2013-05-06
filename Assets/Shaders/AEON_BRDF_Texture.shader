@@ -79,6 +79,7 @@ Shader "AEON_BRDF_Texture"
 			
 			fixed4 c;
 			c.rgb = ( s.Gloss * _LightColor0.rgb * diff + _LightColor0.rgb * spec ) * atten;
+			c.a = s.Alpha;
 			
 			return c;
 		}

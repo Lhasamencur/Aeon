@@ -69,6 +69,7 @@ Shader "AEON_Base_Detail"
 			
 			fixed4 c;
 			c.rgb = ( s.Albedo * _LightColor0.rgb * diff + _LightColor0.rgb * spec ) * atten;
+			c.a = s.Alpha;
 			
 			return c;
 		}
