@@ -190,7 +190,7 @@ public class Water : MonoBehaviour
 		{
 			if( m_ReflectionTexture )
 				DestroyImmediate( m_ReflectionTexture );
-			m_ReflectionTexture = new RenderTexture( Screen.width, Screen.height, 16 );
+			m_ReflectionTexture = new RenderTexture( Screen.width / 4, Screen.height / 4, 16 );
 			m_ReflectionTexture.name = "__WaterReflection" + GetInstanceID();
 			m_ReflectionTexture.isPowerOfTwo = false;
 			m_ReflectionTexture.hideFlags = HideFlags.DontSave;

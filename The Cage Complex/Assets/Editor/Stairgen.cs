@@ -24,7 +24,7 @@ public class Stairgen : MonoBehaviour
 		foreach( Transform child in transform ) children.Add( child.gameObject );
 		children.ForEach( child => DestroyImmediate( child ) );
 		
-		print( "Building..." );
+		print( "Building..." ); 
 		
 		lastStep = gameObject;
 		

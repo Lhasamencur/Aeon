@@ -70,7 +70,7 @@ half4 frag( v2f i ) : COLOR
 	half fresnel = UNITY_SAMPLE_1CHANNEL( _Fresnel, float2(fresnelFac,fresnelFac) );
 	color = lerp( 1.0, refl, fresnel );
 	
-	return float4( refl.xyz, 1.0f );
+	return float4( refl.xyz, _AlphaScale );
 }
 ENDCG
 

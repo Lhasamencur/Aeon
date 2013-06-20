@@ -1,15 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shaders\AEON_Base_Artifact.shader">
-    <Files>
-      <File FileName="Assets\Shaders\AEON_Base_Artifact.shader" Line="87" Column="21" />
-      <File FileName="Assets\Scripts\Player\CameraMove.cs" Line="22" Column="1" />
-      <File FileName="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" Line="193" Column="80" />
-      <File FileName="Assets\Shaders\FX-Water.shader" Line="22" Column="35" />
-      <File FileName="Assets\Scripts\Player\CameraSpin.cs" Line="41" Column="23" />
-      <File FileName="Assets\Scripts\UltimateFPSCamera\vp_FPSCamera.cs" Line="218" Column="57" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
